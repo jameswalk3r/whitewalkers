@@ -8,7 +8,7 @@
 --ROLLBACK TRANSACTION;
 --select * from concerts;
 --ALTER TABLE concerts ALTER COLUMN country SET DEFAULT 'USA';
-BEGIN TRANSACTION;
+--BEGIN TRANSACTION;
 UPDATE concerts SET country = 'Mexico' WHERE city = 'Murfreesboro';
 select * from concerts;
 
