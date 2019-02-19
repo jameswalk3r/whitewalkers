@@ -1,4 +1,3 @@
-code
 --select * from tickets;
 --select * from ticket_holders;
 --select * from concerts;
