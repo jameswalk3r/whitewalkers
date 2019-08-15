@@ -35,3 +35,17 @@ select * from concerts;
 --limit 5;
 
 
+--select * 
+--from monsters_import
+--where size = 'Medium'
+
+--select name, speed
+--from monsters_import
+--where upper(size) like '%MEDIUM%'
+--order by speed desc
+
+Select name, hit_points
+from monsters_import
+where type like '%dragon%'
+order by cast(hit_points as int) desc
+limit 5
