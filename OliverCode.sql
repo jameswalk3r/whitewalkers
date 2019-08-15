@@ -13,7 +13,25 @@ UPDATE concerts SET country = 'Mexico' WHERE city = 'Murfreesboro';
 select * from concerts;
 
 
-test
-I like the way you smell
+--select *
+--from monsters_import
+--order by strength desc
+
+--select * from monsters_import
+--order by cast(intelligence as int) desc
+--limit 10;
+
+--select count(type)
+--from monsters_import
+--where type = 'dragon';
+
+--select distinct alignment from monsters_import 
+--where alignment like '%evil%'
+
+--select *
+--from monsters_import
+--where alignment like '%evil%'
+--order by cast(strength as int) desc
+--limit 5;
 
 
