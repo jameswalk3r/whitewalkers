@@ -49,3 +49,11 @@ from monsters_import
 where type like '%dragon%'
 order by cast(hit_points as int) desc
 limit 5
+
+--SELECT DISTINCT name, type
+--FROM monsters_import
+--order by name
+
+SELECT COUNT ( DISTINCT type ), name
+FROM monsters_import
+group by size, name
